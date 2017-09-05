@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>緊急消防援助隊出場基準表(大阪府限定)</title>
+  <meta name="description" content="緊急消防援助隊(大阪府限定)の出場の可能性を確認することができるWebアプリです。">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="home.css">
+  <script type="text/javascript" src="home.js"></script>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta property="og:title" content="緊急消防援助隊出場基準表(大阪府限定)"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="緊急消防援助隊(大阪府限定)の出場の可能性を確認することができるWebアプリです。"/>
+  <meta property="og:url" content="https://osakakinentai.azurewebsites.net/index.html"/>
+  <meta property="og:image" content="https://osakakinentai.azurewebsites.net/kinentai1024x500.png"/>
+  <meta property="og:site_name" content="緊急消防援助隊出場基準表(大阪府限定)"/>
+  <meta property="og:locale" content="ja_JP"/>
+  <meta property="fb:app_id" content="1950423071901347"/>
+</head>
+<body>
+  <a href="./search.html" class="btnApp">
+    アプリ説明書
+  </a>
+<div class="block">
+  <div id="header">緊援隊</div>
+  <div class="lblTitle"><span>緊急消防援助隊出場基準表</span></div>
+	<button id="one"   type="button" onclick="clickButton1()">地震(震央「陸」)</button>
+	<button id="two"   type="button" onclick="clickButton2()">地震(震央「海域」)</button>
+	<button id="three" type="button" onclick="clickButton3()">アクションプラン</button>
+  <button id="four"  type="button" onclick="clickButton4()">大津波警報・噴火</button>
+	<button id="five"  type="button" onclick="clickButton5()">特殊災害(NBC含む)</button>
+	<button id="info1" type="button" onclick="clickButton7()">情報(地震)</button>
+	<button id="info2" type="button" onclick="clickButton8()">情報(停電)</button>
+	<button id="info3" type="button" onclick="clickButton9()">情報(道路)</button>
+	<button id="info4" type="button" onclick="clickButton10()">情報(関係機関)</button>
+	<button id="info5" type="button" onclick="clickButton11()">情報(河川)</button>
+	<button id="info6" type="button" onclick="clickButton12()">情報(気象)</button>
+</div>
+<div id="dialog_content"></div>
+</body>
