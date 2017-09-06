@@ -95,11 +95,11 @@ function selectArea7(){
 
 function showResult(num){
   var s = "";
+  var csvArray = new Array();
   //csvファイル読み込み
   var xhr = new XMLHttpRequest();
   xhr.onload = function(){
     var tempArray = xhr.responseText.split("\n");
-    var csvArray = new Array();
     for(var i=1; i<tempArray.length; i++){ //i=1はヘッダーを読み込ませないため
       csvArray[i] = tempArray[i].split(",");
       var data = csvArray[i];
@@ -107,8 +107,8 @@ function showResult(num){
         s = data[0] + '<br>' + data[1] + '<br>' + data[2] + '<br>' + data[3];
       }
     }
+    window.confirm(csvArray[num+1]);
   };
-  xhr.open("get", "/assets/riku7.csv");
+  xhr.open("get", "assets/riku7.csv");
   xhr.send(null);
-  window.confirm(s);
 }
