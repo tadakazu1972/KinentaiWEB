@@ -46,7 +46,7 @@ a {
 
 /*緊援隊オビ*/
 #header {
-	margin-top: 64px;
+	margin-top: 60px;
   background: #eee;
   text-align: center;
   font-size: 14px;
@@ -56,7 +56,7 @@ a {
 
 /*緊急消防援助隊出場基準表ラベル*/
 .lblTitle {
-	margin-top: 48px;
+	margin-top: 38px;
 	margin-left: auto;
 	margin-right: auto;
 	color: #ffd700;/*文字色*/
@@ -196,7 +196,7 @@ a {
   width: 30%;/*幅*/
 	max-width: 360px;
   text-align: center;/*中身を中央寄せ*/
-  font-size: 18px;/*文字のサイズ*/
+  font-size: 14px;/*文字のサイズ*/
   line-height: 18px;/*文字の高さ調整*/
   vertical-align: middle;/*垂直中央寄せ*/
   background: #ededed;
@@ -218,7 +218,7 @@ a {
   width: 30%;/*幅*/
 	max-width: 360px;
   text-align: center;/*中身を中央寄せ*/
-  font-size: 18px;/*文字のサイズ*/
+  font-size: 14px;/*文字のサイズ*/
   line-height: 18px;/*文字の高さ調整*/
   vertical-align: middle;/*垂直中央寄せ*/
   background: #ededed;
@@ -240,7 +240,7 @@ a {
   width: 30%;/*幅*/
 	max-width: 360px;
   text-align: center;/*中身を中央寄せ*/
-  font-size: 18px;/*文字のサイズ*/
+  font-size: 14px;/*文字のサイズ*/
   line-height: 18px;/*文字の高さ調整*/
   vertical-align: middle;/*垂直中央寄せ*/
   background: #ededed;
@@ -262,7 +262,7 @@ a {
   width: 30%;/*幅*/
 	max-width: 360px;
   text-align: center;/*中身を中央寄せ*/
-  font-size: 12px;/*文字のサイズ*/
+  font-size: 11px;/*文字のサイズ*/
   line-height: 18px;/*文字の高さ調整*/
   vertical-align: middle;/*垂直中央寄せ*/
   background: #ededed;
@@ -284,7 +284,7 @@ a {
   width: 30%;/*幅*/
 	max-width: 360px;
   text-align: center;/*中身を中央寄せ*/
-  font-size: 18px;/*文字のサイズ*/
+  font-size: 14px;/*文字のサイズ*/
   line-height: 18px;/*文字の高さ調整*/
   vertical-align: middle;/*垂直中央寄せ*/
   background: #ededed;
@@ -306,7 +306,7 @@ a {
   width: 30%;/*幅*/
 	max-width: 360px;
   text-align: center;/*中身を中央寄せ*/
-  font-size: 18px;/*文字のサイズ*/
+  font-size: 14px;/*文字のサイズ*/
   line-height: 18px;/*文字の高さ調整*/
   vertical-align: middle;/*垂直中央寄せ*/
   background: #ededed;
@@ -361,7 +361,7 @@ a {
 }
 
 .cancel {
-	width: 80px;
+	width: 100px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -379,9 +379,9 @@ a {
 	margin-left: 4px;
 	margin-right: 4px;
 	margin-bottom: 2px;
-	width: 70px;
+	width: 76px;
 	background: #ededed;
-	font-size: 11px;
+	font-size: 16px;
 }
 
 /* iPhone5s, SE ---------------------------------------------*/
