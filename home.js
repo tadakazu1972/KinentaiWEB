@@ -83,7 +83,7 @@ function selectArea7(){
   //ダイアログコンテンツ統合
   var html = document.getElementById("dialog_content").innerHTML;
   html = html + '<div id="dialog">'
-              + '<div id="dialog_back"></div>'
+              + '<div id="dialog2_back"></div>'
               + '<div id="dialog2_body">'
               + title
               + item
