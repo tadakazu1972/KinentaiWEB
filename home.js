@@ -87,6 +87,7 @@ function selectArea7(){
               + '<div id="dialog2_body">'
               + title
               + item
+              + '<br>'
               + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
               + '</div>';
   document.getElementById("dialog_content").innerHTML = html;

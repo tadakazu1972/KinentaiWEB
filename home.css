@@ -347,7 +347,7 @@ a {
 	-webkit- transform: translateX(-50%);
 	top: 40px;
 	width: 90%;
-	height: 180%;
+	height: 160%;
 	background-color: #fff;
 	box-shadow: 6px 6px 6px rgba(0,0,0,0.4);
 	padding: 10px;
@@ -379,7 +379,7 @@ a {
 	margin-left: 4px;
 	margin-right: 4px;
 	margin-bottom: 4px;
-	width: 80px;
+	width: 82px;
 	height: 32px;
 	background: #ededed;
 	font-size: 14px;
