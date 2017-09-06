@@ -333,7 +333,21 @@ a {
 	-webkit- transform: translateX(-50%);
 	top: 150px;
 	width: 80%;
-	height: 150px;
+	height: 200px;
+	background-color: #fff;
+	box-shadow: 6px 6px 6px rgba(0,0,0,0.4);
+	padding: 10px;
+}
+
+#dialog2_body {
+	position: absolute;
+	border-radius: 6px 6px 6px 6px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit- transform: translateX(-50%);
+	top: 40px;
+	width: 80%;
+	height: 80%;
 	background-color: #fff;
 	box-shadow: 6px 6px 6px rgba(0,0,0,0.4);
 	padding: 10px;
@@ -344,6 +358,30 @@ a {
 	background: transparent;
 	cursor: pointer;
 	font-size: 18px;
+}
+
+.cancel {
+	width: 80px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit- transform: translateX(-50%);
+	border-radius: 8px;/*角丸に*/
+  display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #ffa500;
+	border: solid 0px;
+}
+
+.prefecture {
+	margin-top: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 2px;
+	width: 70px;
+	background: #ededed;
+	font-size: 11px;
 }
 
 /* iPhone5s, SE ---------------------------------------------*/
