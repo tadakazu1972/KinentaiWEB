@@ -56,7 +56,7 @@ a {
 
 /*緊急消防援助隊出場基準表ラベル*/
 .lblTitle {
-	margin-top: 38px;
+	margin-top: 26px;
 	margin-left: auto;
 	margin-right: auto;
 	color: #ffd700;/*文字色*/
@@ -262,7 +262,7 @@ a {
   width: 30%;/*幅*/
 	max-width: 360px;
   text-align: center;/*中身を中央寄せ*/
-  font-size: 11px;/*文字のサイズ*/
+  font-size: 10px;/*文字のサイズ*/
   line-height: 18px;/*文字の高さ調整*/
   vertical-align: middle;/*垂直中央寄せ*/
   background: #ededed;
@@ -381,7 +381,7 @@ a {
 	margin-bottom: 2px;
 	width: 76px;
 	background: #ededed;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 /* iPhone5s, SE ---------------------------------------------*/
