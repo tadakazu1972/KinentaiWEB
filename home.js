@@ -93,6 +93,22 @@ function selectArea7(){
   document.getElementById("dialog_content").innerHTML = html;
 }
 
-function showResult(i){
-  window.confirm('ボタンクリックされた'+i);
+function showResult(num){
+  var s = "";
+  //csvファイル読み込み
+  var xhr = new XMLHttpRequest();
+  xhr.onload = function(){
+    var tempArray = xhr.responseText.split("\n");
+    var csvArray = new Array();
+    for(var i=1; i<tempArray.length; i++){ //i=1はヘッダーを読み込ませないため
+      csvArray[i] = tempArray[i].split(",");
+      var data = csvArray[i];
+      if ((num+1)==i){
+        s = data[0] + '<br>' + data[1] + '<br>' + data[2] + '<br>' + data[3];
+      }
+    }
+  };
+  xhr.open("get", "/assets/riku7.csv");
+  xhr.send(null);
+  window.confirm(s);
 }
