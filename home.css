@@ -347,7 +347,7 @@ a {
 	-webkit- transform: translateX(-50%);
 	top: 40px;
 	width: 80%;
-	height: 80%;
+	height: 180%;
 	background-color: #fff;
 	box-shadow: 6px 6px 6px rgba(0,0,0,0.4);
 	padding: 10px;
@@ -375,11 +375,12 @@ a {
 }
 
 .prefecture {
-	margin-top: 2px;
+	margin-top: 4px;
 	margin-left: 4px;
 	margin-right: 4px;
-	margin-bottom: 2px;
-	width: 76px;
+	margin-bottom: 4px;
+	width: 78px;
+	height: 32px;
 	background: #ededed;
 	font-size: 14px;
 }
@@ -389,7 +390,7 @@ a {
 
 	/*緊急消防援助隊出場基準表ラベル*/
 	.lblTitle {
-		margin-top: 20px;
+		margin-top: 10px;
 		margin-left: auto;
 		margin-right: auto;
 		color: #ffd700;/*文字色*/
