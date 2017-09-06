@@ -409,7 +409,7 @@ a {
 	  height: 100%;/*高さ*/
 	  width: 100%;/*幅*/
 	  text-align: center;/*中身を中央寄せ*/
-	  font-size: 5vw;/*文字のサイズ*/
+	  font-size: 18px;/*文字のサイズ*/
 		font-weight: bold;
 	  line-height: 36px;/*高さと合わせる*/
 	  vertical-align: middle;/*垂直中央寄せ*/
