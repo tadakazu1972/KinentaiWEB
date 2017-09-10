@@ -327,8 +327,8 @@ function showResult3(num){
       result = result + tempArray[i] + '<br>';
     }
     var html =     '<div id="dialog">'
-                 + '<div id="dialog3_back"></div>'
-                 + '<div id="dialog3_body">'
+                 + '<div id="dialog2_back"></div>'
+                 + '<div id="dialog2_body">'
                  + title
                  + '<br>'
                  + result

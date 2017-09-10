@@ -452,7 +452,7 @@ a {
 
 #list1 {
 	margin-top: 8px;
-	width: 100px;
+	width: 200px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -466,6 +466,7 @@ a {
 }
 
 .list2 {
+	width: 100px;
 	position: absolute;
 	left: 75%;
 	transform: translateX(-50%);
