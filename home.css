@@ -409,6 +409,36 @@ a {
 	border: solid 0px;
 }
 
+.cancel2 {
+	margin-top: 8px;
+	width: 100px;
+	position: absolute;
+	left: 25%;
+	transform: translateX(-50%);
+	-webkit- transform: translateX(-50%);
+	border-radius: 8px;/*角丸に*/
+  display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #ffa500;
+	border: solid 0px;
+}
+
+.action {
+	margin-top: 8px;
+	width: 100px;
+	position: absolute;
+	left: 75%;
+	transform: translateX(-50%);
+	-webkit- transform: translateX(-50%);
+	border-radius: 8px;/*角丸に*/
+  display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #ff0000;
+	border: solid 0px;
+}
+
 .prefecture {
 	margin-top: 4px;
 	margin-left: 4px;
@@ -418,6 +448,34 @@ a {
 	height: 32px;
 	background: #ededed;
 	font-size: 14px;
+}
+
+#list1 {
+	margin-top: 8px;
+	width: 100px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit- transform: translateX(-50%);
+	border-radius: 8px;/*角丸に*/
+  display: inline-block;
+	font-size: 18px;
+	color: #000;
+	background: #ffffff;
+	border: solid 0px;
+}
+
+.list2 {
+	position: absolute;
+	left: 75%;
+	transform: translateX(-50%);
+	-webkit- transform: translateX(-50%);
+	border-radius: 8px;/*角丸に*/
+  display: inline-block;
+	font-size: 18px;
+	color: #000;
+	background: #ffffff;
+	border: solid 0px;
 }
 
 /* iPhone5s, SE ---------------------------------------------*/
