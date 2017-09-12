@@ -396,7 +396,7 @@ function judgeNankaitrafcase1(){
               + '<br>'
               + '<br>'
               + '<button class="cancel2" type="button" onclick="closeDialog()">閉じる</button>'
-              + '<button class="action" type="button" onclick="showResultNankaitraf1()">対応</button>'
+              + '<button class="action" type="button" onclick="judgeNankaitrafcase1A()">対応</button>'
               + '</div>';
   document.getElementById("dialog_content").innerHTML = html;
   //セレクト１設定
@@ -427,6 +427,18 @@ function judgeNankaitrafcase1(){
     list4 += '<option value="' + list4Label[i] + '">' + list4Label[i] + '</option>';
   }
   document.getElementById("list4").innerHTML = list4;
+}
+
+function judgeNankaitrafcase1A(){
+  var list1 = document.getElementById("list1").value;
+  var list2 = document.getElementById("list2").value;
+  var list3 = document.getElementById("list3").value;
+  var list4 = document.getElementById("list4").value;
+  if ( list1 != "その他" && list2 != "その他" && list3 != "その他" && list4 != "その他" ){
+    showResultNankaitraf1();
+  } else {
+    showResultNankaitraf2();
+  }
 }
 
 function judgeNankaitrafcase2(){
@@ -484,6 +496,35 @@ function showResultNankaitraf1(){
   };
   //読み込みファイル指定
   var filename = "assets/kinentai_nankaitraf.txt";
+  xhr.open("get", filename);
+  xhr.send(null);
+}
+
+function showResultNankaitraf2(){
+  var title = "南海トラフ<br>";
+  var result = "";
+  //txtファイル読み込み
+  var xhr = new XMLHttpRequest();
+  xhr.onload = function(){
+    //改行コードを<br>に置き換え
+    var tempArray = xhr.responseText.split("\n");
+    for(var i=0; i<tempArray.length; i++){ //ここは他のcsvと違ってtxtだからヘッダーがないので0スタートに注意!
+      result = result + tempArray[i] + '<br>';
+    }
+    var html =     '<div id="dialog">'
+                 + '<div id="dialog2_back"></div>'
+                 + '<div id="dialog2_body">'
+                 + title
+                 + '<br>'
+                 + result
+                 + '<br>'
+                 + '<br>'
+                 + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
+                 + '</div>';
+    document.getElementById("dialog_content").innerHTML = html;
+  };
+  //読み込みファイル指定
+  var filename = "assets/kinentai_nankaitraf2.txt";
   xhr.open("get", filename);
   xhr.send(null);
 }
