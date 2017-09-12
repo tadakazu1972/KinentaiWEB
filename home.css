@@ -16,6 +16,7 @@ body {
 }
 
 a {
+	max-width: 320px;
 	margin: auto;
 	text-decoration: none;
 }
