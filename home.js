@@ -62,32 +62,148 @@ function clickButton5(){
   selectArea5(1);
 }
 
+//　情報（地震）
 function clickButton6(){
-  location.href = "./map.html?num=5";
+  var html = document.getElementById("dialog_content").innerHTML;
+  html = html + '<div id="dialog">'
+              + '<div id="dialog_back"></div>'
+              + '<div id="dialog_body">'
+              + 'URLをタップしてください<br>'
+              + '<br>'
+              + '◾️震度情報（気象庁）<br>'
+              + '<br>'
+              + '<a href="http://www.jma.go.jp/jp/quake/">http://www.jma.go.jp/jp/quake/</a><br>'
+              + '<br>'
+              + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
+              + '</div>';
+  document.getElementById("dialog_content").innerHTML = html;
 }
 
 function clickButton7(){
-  location.href = "./map.html?num=6";
+  var html = document.getElementById("dialog_content").innerHTML;
+  html = html + '<div id="dialog">'
+              + '<div id="dialog2_back"></div>'
+              + '<div id="dialog2_body">'
+              + 'URLをタップしてください<br>'
+              + '<br>'
+              + '◾️停電情報<br>'
+              + '<br>'
+              + '・関西電力<br>'
+              + '<a href="http://www.kepco.co.jp/energy_supply/supply/teiden-info/">http://www.kepco.co.jp/energy_supply/supply/teiden-info/</a><br>'
+              + '<br>'
+              + '・四国電力<br>'
+              + '<a href="http://www.yonden.co.jp/kinkyu/">http://www.yonden.co.jp/kinkyu/</a><br>'
+              + '<br>'
+              + '・中国電力<br>'
+              + '<a href="http://www.teideninfo.energia.co.jp/TI/LWC30010.do?act=goHst&hct=pc">http://www.teideninfo.energia.co.jp/TI/LWC30010.do?act=goHst&hct=pc</a><br>'
+              + '<br>'
+              + '・九州電力<br>'
+              + '<a href="http://www.kyuden.co.jp/info_teiden/fukuoka.html">http://www.kyuden.co.jp/info_teiden/fukuoka.html</a><br>'
+              + '<br>'
+              + '・中部電力<br>'
+              + '<a href="http://teiden.chuden.jp/p/index.html">http://teiden.chuden.jp/p/index.html</a><br>'
+              + '<br>'
+              + '・北陸電力<br>'
+              + '<a href="http://www.rikuden.co.jp/teiden/otj010.html">http://www.rikuden.co.jp/teiden/otj010.html</a><br>'
+              + '<br>'
+              + '・東京電力<br>'
+              + '<a href="http://teideninfo.tepco.co.jp/sp/00000000000.html">http://teideninfo.tepco.co.jp/sp/00000000000.html</a><br>'
+              + '<br>'
+              + '・東北電力<br>'
+              + '<a href="https://www.tohoku-epco.co.jp/teideninfo">https://www.tohoku-epco.co.jp/teideninfo</a><br>'
+              + '<br>'
+              + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
+              + '</div>';
+  document.getElementById("dialog_content").innerHTML = html;
 }
 
 function clickButton8(){
-  location.href = "./map.html?num=7";
+  var html = document.getElementById("dialog_content").innerHTML;
+  html = html + '<div id="dialog">'
+              + '<div id="dialog3_back"></div>'
+              + '<div id="dialog3_body">'
+              + 'URLをタップしてください<br>'
+              + '<br>'
+              + '◾️道路情報<br>'
+              + '<br>'
+              + '・トヨタ通れた道マップ<br>'
+              + '<a href="https://www.toyota.co.jp/jpn/auto/passable_route/map/">https://www.toyota.co.jp/jpn/auto/passable_route/map/</a><br>'
+              + '<br>'
+              + '・日本道路交通情報センター<br>'
+              + '<a href="http://www.jartic.or.jp/index.html">http://www.jartic.or.jp/index.html</a><br>'
+              + '<br>'
+              + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
+              + '</div>';
+  document.getElementById("dialog_content").innerHTML = html;
 }
 
 function clickButton9(){
-  location.href = "./map.html?num=8";
+  var html = document.getElementById("dialog_content").innerHTML;
+  html = html + '<div id="dialog">'
+              + '<div id="dialog3_back"></div>'
+              + '<div id="dialog3_body">'
+              + 'URLをタップしてください<br>'
+              + '<br>'
+              + '◾️総務省消防庁<br>'
+              + '<a href="http://www.fdma.go.jp/">http://www.fdma.go.jp/</a><br>'
+              + '<br>'
+              + '◾️官房長官記者会見<br>'
+              + '<a href="http://www.kantei.go.jp/jp/tyoukanpress/index.html">http://www.kantei.go.jp/jp/tyoukanpress/index.html</a><br>'
+              + '<br>'
+              + '◾️総理指示<br>'
+              + '<a href="http://www.kantei.go.jp/jp/97_abe/discource/index.html">http://www.kantei.go.jp/jp/97_abe/discource/index.html</a><br>'
+              + '<br>'
+              + '◾️総理記者会見<br>'
+              + '<a href="http://www.kantei.go.jp/jp/97_abe/statement/index.html">http://www.kantei.go.jp/jp/97_abe/statement/index.html</a><br>'
+              + '<br>'
+              + '◾️首相官邸(災害・危機管理ツイッター)<br>'
+              + '<a href="https://twitter.com/Kantei_Saigai">https://twitter.com/Kantei_Saigai</a><br>'
+              + '<br>'
+              + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
+              + '</div>';
+  document.getElementById("dialog_content").innerHTML = html;
 }
 
 function clickButton10(){
-  location.href = "./map.html?num=9";
+  var html = document.getElementById("dialog_content").innerHTML;
+  html = html + '<div id="dialog">'
+              + '<div id="dialog3_back"></div>'
+              + '<div id="dialog3_body">'
+              + 'URLをタップしてください<br>'
+              + '<br>'
+              + '◾️国交省　川の防災情報<br>'
+              + '<a href="http://www.river.go.jp/kawabou/ipRadar.do?areaCd=86&amp;prefCd=&amp;townCd=&amp;gamenId=01-0706&amp;fldCtlParty=no">http://www.river.go.jp/kawabou/ipRadar.do?areaCd=86&amp;prefCd=&amp;townCd=&amp;gamenId=01-0706&amp;fldCtlParty=no</a><br>'
+              + '<br>'
+              + '◾️大阪府　河川情報<br>'
+              + '<a href="http://www.osaka-kasen-portal.net/suibou/index.html">http://www.osaka-kasen-portal.net/suibou/index.html</a><br>'
+              + '<br>'
+              + '◾️気象庁　洪水予報<br>'
+              + '<a href="http://www.jma.go.jp/jp/flood/">http://www.jma.go.jp/jp/flood/</a><br>'
+              + '<br>'
+              + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
+              + '</div>';
+  document.getElementById("dialog_content").innerHTML = html;
 }
 
 function clickButton11(){
-  location.href = "./map.html?num=10";
-}
-
-function clickButton12(){
-  location.href = "./map.html?num=11";
+  var html = document.getElementById("dialog_content").innerHTML;
+  html = html + '<div id="dialog">'
+              + '<div id="dialog3_back"></div>'
+              + '<div id="dialog3_body">'
+              + 'URLをタップしてください<br>'
+              + '<br>'
+              + '◾️気象庁<br>'
+              + '<a href="http://www.jma.go.jp/jma/index.html">http://www.jma.go.jp/jma/index.html</a><br>'
+              + '<br>'
+              + '◾️建設局　降雨情報<br>'
+              + '<a href="http://www.ame.city.osaka.lg.jp/pweb/">http://www.ame.city.osaka.lg.jp/pweb/</a><br>'
+              + '<br>'
+              + '◾️気象庁　潮位情報<br>'
+              + '<a href="http://www.data.jma.go.jp/gmd/kaiyou/db/tide/suisan/suisan.php?stn=OS">http://www.data.jma.go.jp/gmd/kaiyou/db/tide/suisan/suisan.php?stn=OS</a><br>'
+              + '<br>'
+              + '<button class="cancel" type="button" onclick="closeDialog()">閉じる</button>'
+              + '</div>';
+  document.getElementById("dialog_content").innerHTML = html;
 }
 
 function showDialog(){
@@ -512,8 +628,8 @@ function showResultNankaitraf2(){
       result = result + tempArray[i] + '<br>';
     }
     var html =     '<div id="dialog">'
-                 + '<div id="dialog2_back"></div>'
-                 + '<div id="dialog2_body">'
+                 + '<div id="dialog_back"></div>'
+                 + '<div id="dialog_body">'
                  + title
                  + '<br>'
                  + result
