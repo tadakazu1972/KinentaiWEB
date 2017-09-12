@@ -378,7 +378,7 @@ function judgeNankaitrafcase1(){
   var title = "南海トラフ　次の①②が合致した場合にアクションプランを適用する<br>";
   var html =  '<div id="dialog">'
               + '<div id="dialog2_back"></div>'
-              + '<div id="dialog2_body">'
+              + '<div id="dialogNankai_body">'
               + title
               + '<br>'
               + '①想定震源断層域と重なる震央地名<br>'
