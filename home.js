@@ -85,9 +85,7 @@ function clickButton7(){
               + '<div id="dialog2_back"></div>'
               + '<div id="dialog2_body">'
               + 'URLをタップしてください<br>'
-              + '<br>'
               + '◾️停電情報<br>'
-              + '<br>'
               + '・関西電力<br>'
               + '<a href="http://www.kepco.co.jp/energy_supply/supply/teiden-info/">http://www.kepco.co.jp/energy_supply/supply/teiden-info/</a><br>'
               + '<br>'
@@ -140,8 +138,8 @@ function clickButton8(){
 function clickButton9(){
   var html = document.getElementById("dialog_content").innerHTML;
   html = html + '<div id="dialog">'
-              + '<div id="dialog3_back"></div>'
-              + '<div id="dialog3_body">'
+              + '<div id="dialog2_back"></div>'
+              + '<div id="dialog2_body">'
               + 'URLをタップしてください<br>'
               + '<br>'
               + '◾️総務省消防庁<br>'
@@ -168,7 +166,7 @@ function clickButton10(){
   var html = document.getElementById("dialog_content").innerHTML;
   html = html + '<div id="dialog">'
               + '<div id="dialog3_back"></div>'
-              + '<div id="dialog3_body">'
+              + '<div id="dialogNankai_body">'
               + 'URLをタップしてください<br>'
               + '<br>'
               + '◾️国交省　川の防災情報<br>'
